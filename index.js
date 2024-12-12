@@ -9,7 +9,7 @@ async function getData() {
 async function getGraph()
 {
     let shootings = [0,0,0,0,0]
-    let colors = ['#FFFFFF','#77c783', '#2623e8', '#a023e8', '#e8ca23', '#e87c23' ]
+    let colors = ['#77c783', '#2623e8', '#a023e8', '#e8ca23', '#e87c23' ]
     let boroughs = ["QUEENS", "BROOKLYN", "MANHATTAN", "BRONX", "STATEN ISLAND"]
     const rows = await getData()
     rows.forEach((elem) => {
